@@ -1,0 +1,18 @@
+.appear.up .item {
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  opacity: 0;
+  -webkit-transform: translateY(6px);
+          transform: translateY(6px);
+}
+
+.appear.up.inview .item {
+  opacity: 1;
+  -webkit-transform: none;
+          transform: none;
+}
+
+img {
+  max-width: 80%;
+}
+/*# sourceMappingURL=style.css.map */

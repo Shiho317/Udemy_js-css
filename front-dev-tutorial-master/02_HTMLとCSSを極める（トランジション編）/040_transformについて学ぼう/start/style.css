@@ -1,0 +1,11 @@
+.rect {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #ff4500;
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+/*# sourceMappingURL=style.css.map */

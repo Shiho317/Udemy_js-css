@@ -1,0 +1,33 @@
+$cWhite: white;
+$cBlack: black;
+
+
+
+#container{
+  text-align: center;
+
+  .btn{
+
+  }
+  
+  &-cube{
+  background-color: $cWhite;
+}
+}
+
+.btn{
+  background-color: $cWhite;
+  color: $cBlack;
+  border: 1px solid $cBlack;
+  padding: 10px 40px;
+  margin: 10px 40px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease 3s;
+}
+
+.btn:hover{
+  background-color: $cBlack;
+  color: $cWhite;
+}
+
